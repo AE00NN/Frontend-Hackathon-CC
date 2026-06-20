@@ -1,0 +1,59 @@
+.skills-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 12px;
+  background: var(--paper);
+  border: 1px solid var(--paper-dim);
+  border-radius: 6px;
+  min-height: 48px;
+}
+
+.skills-input:focus-within {
+  border-color: var(--amber-deep);
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(224, 151, 43, 0.16);
+  border: 1px solid var(--amber-deep);
+  color: var(--amber-deep);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 4px 6px 4px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.skill-chip__remove {
+  background: none;
+  border: none;
+  color: var(--amber-deep);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.skill-chip__remove:hover {
+  background: var(--amber-deep);
+  color: var(--paper);
+}
+
+.skills-input__field {
+  flex: 1;
+  min-width: 120px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  color: var(--paper-text);
+}
+
+.skills-input__field::placeholder {
+  color: var(--paper-text-dim);
+}

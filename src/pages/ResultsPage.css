@@ -1,0 +1,118 @@
+.results-page {
+  min-height: 100%;
+  padding: 40px 20px 80px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.results-page--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results-page__loading {
+  font-family: var(--font-mono);
+  color: var(--graphite);
+  font-size: 14px;
+}
+
+.results-page__error-card {
+  background: var(--paper);
+  color: var(--paper-text);
+  padding: 26px 28px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 360px;
+}
+
+.results-page__back-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--amber-deep);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.results-header {
+  margin-bottom: 26px;
+}
+
+.results-header__back {
+  display: inline-block;
+  color: var(--graphite);
+  font-size: 13px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.results-header__back:hover {
+  color: var(--paper);
+}
+
+.results-header__title {
+  font-family: var(--font-display);
+  font-size: clamp(26px, 4vw, 36px);
+  margin: 8px 0 14px;
+  font-weight: 600;
+}
+
+.results-header__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.results-header__years {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--graphite);
+  margin-left: 4px;
+}
+
+.results-header__counter {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-family: var(--font-mono);
+  border-top: 1px solid var(--ink-line);
+  padding-top: 14px;
+}
+
+.results-header__counter-number {
+  font-size: 22px;
+  color: var(--amber);
+  font-weight: 600;
+}
+
+.results-header__counter-slash {
+  color: var(--graphite-dim);
+}
+
+.results-header__counter-label {
+  margin-left: 8px;
+  color: var(--graphite);
+  font-size: 13px;
+}
+
+.manifest {
+  background: var(--paper);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.5);
+}
+
+.manifest__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.results-page__inline-error {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--clay);
+  font-family: var(--font-mono);
+}

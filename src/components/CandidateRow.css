@@ -1,0 +1,107 @@
+.candidate-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--paper-dim);
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+
+.candidate-row:last-child {
+  border-bottom: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.candidate-row:hover {
+  background: var(--paper-dim);
+}
+
+.candidate-row--failed {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.candidate-row--failed:hover {
+  background: var(--paper);
+}
+
+.candidate-row__rank {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--paper-text-dim);
+  width: 20px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.candidate-row__stamp-slot {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.candidate-row__failed-mark {
+  color: var(--clay);
+  font-size: 22px;
+}
+
+.candidate-row__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.candidate-row__filename {
+  font-weight: 500;
+  color: var(--paper-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.candidate-row__failed-text {
+  font-size: 13px;
+  color: var(--clay);
+}
+
+.candidate-row__tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.tag--moss {
+  background: rgba(92, 130, 89, 0.14);
+  color: var(--moss-deep);
+}
+
+.tag--clay {
+  background: rgba(181, 83, 60, 0.12);
+  color: var(--clay-deep);
+}
+
+.tag--ghost {
+  background: rgba(224, 151, 43, 0.14);
+  color: var(--amber-deep);
+}
+
+.candidate-row__chevron {
+  font-size: 22px;
+  color: var(--paper-text-dim);
+  flex-shrink: 0;
+}

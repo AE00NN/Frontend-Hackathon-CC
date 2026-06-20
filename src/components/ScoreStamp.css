@@ -1,0 +1,52 @@
+.score-stamp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  position: relative;
+  font-family: var(--font-display);
+  font-weight: 600;
+  transform: rotate(-4deg);
+  flex-shrink: 0;
+}
+
+.score-stamp::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.score-stamp--md {
+  width: 52px;
+  height: 52px;
+  font-size: 19px;
+}
+
+.score-stamp--lg {
+  width: 84px;
+  height: 84px;
+  font-size: 30px;
+}
+
+.score-stamp--high {
+  color: var(--moss);
+  background: rgba(92, 130, 89, 0.12);
+}
+
+.score-stamp--mid {
+  color: var(--amber-deep);
+  background: rgba(224, 151, 43, 0.12);
+}
+
+.score-stamp--low {
+  color: var(--clay);
+  background: rgba(181, 83, 60, 0.12);
+}
+
+.score-stamp__number {
+  transform: rotate(4deg);
+}
