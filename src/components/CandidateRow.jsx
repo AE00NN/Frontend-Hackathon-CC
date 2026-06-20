@@ -37,7 +37,7 @@ export default function CandidateRow({ rank, candidate, onOpen }) {
             {gaps.slice(0, 1).map((g) => (
               <span className="tag tag--clay" key={g}>{g}</span>
             ))}
-            {confidence_flag && (
+            {confidence_flag === 'low_extraction_quality' && (
               <span className="tag tag--ghost">⚠ confianza baja</span>
             )}
           </div>

@@ -29,7 +29,7 @@ export default function CandidateDrawer({ candidate, onClose }) {
           </div>
         </header>
 
-        {confidence_flag && (
+        {confidence_flag === 'low_extraction_quality' && (
           <div className="drawer__notice">
             ⚠ El modelo marcó confianza baja en esta evaluación — revisa el CV manualmente antes de descartar.
           </div>

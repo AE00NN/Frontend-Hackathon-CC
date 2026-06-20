@@ -5,7 +5,7 @@
   align-items: center;
   padding: 10px 12px;
   background: var(--paper);
-  border: 1px solid var(--paper-dim);
+  border: 1px solid var(--ink-line-strong);
   border-radius: 6px;
   min-height: 48px;
 }
@@ -18,9 +18,9 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(224, 151, 43, 0.16);
-  border: 1px solid var(--amber-deep);
-  color: var(--amber-deep);
+  background: rgba(10, 102, 194, 0.08);
+  border: 1px solid var(--amber);
+  color: var(--amber);
   font-family: var(--font-mono);
   font-size: 13px;
   padding: 4px 6px 4px 10px;
@@ -31,7 +31,7 @@
 .skill-chip__remove {
   background: none;
   border: none;
-  color: var(--amber-deep);
+  color: var(--amber);
   font-size: 16px;
   line-height: 1;
   cursor: pointer;
@@ -40,7 +40,7 @@
 }
 
 .skill-chip__remove:hover {
-  background: var(--amber-deep);
+  background: var(--amber);
   color: var(--paper);
 }
 

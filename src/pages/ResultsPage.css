@@ -47,7 +47,7 @@
 }
 
 .results-header__back:hover {
-  color: var(--paper);
+  color: var(--amber);
 }
 
 .results-header__title {
@@ -99,9 +99,10 @@
 
 .manifest {
   background: var(--paper);
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.02);
+  border: 1px solid var(--ink-line);
 }
 
 .manifest__list {

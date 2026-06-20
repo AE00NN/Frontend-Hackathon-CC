@@ -1,11 +1,11 @@
 .dropzone {
-  border: 1.5px dashed var(--paper-dim);
+  border: 1.5px dashed var(--ink-line-strong);
   border-radius: 8px;
   padding: 28px 16px;
   text-align: center;
   cursor: pointer;
-  background: rgba(246, 241, 231, 0.03);
-  color: var(--paper);
+  background: var(--ink);
+  color: var(--paper-text);
   transition: border-color 0.15s ease, background 0.15s ease;
 }
 
@@ -55,7 +55,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background: rgba(246, 241, 231, 0.04);
+  background: var(--ink);
   border: 1px solid var(--ink-line);
   border-radius: 6px;
   padding: 8px 10px;

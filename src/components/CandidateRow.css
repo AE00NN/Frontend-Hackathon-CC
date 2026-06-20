@@ -11,7 +11,7 @@
 
 .candidate-row:last-child {
   border-bottom: none;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 8px 8px;
 }
 
 .candidate-row:hover {
@@ -86,18 +86,18 @@
 }
 
 .tag--moss {
-  background: rgba(92, 130, 89, 0.14);
-  color: var(--moss-deep);
+  background: rgba(5, 118, 66, 0.1);
+  color: var(--moss);
 }
 
 .tag--clay {
-  background: rgba(181, 83, 60, 0.12);
-  color: var(--clay-deep);
+  background: rgba(209, 17, 36, 0.1);
+  color: var(--clay);
 }
 
 .tag--ghost {
-  background: rgba(224, 151, 43, 0.14);
-  color: var(--amber-deep);
+  background: rgba(10, 102, 194, 0.1);
+  color: var(--amber);
 }
 
 .candidate-row__chevron {

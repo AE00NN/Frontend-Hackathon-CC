@@ -34,17 +34,17 @@
 
 .score-stamp--high {
   color: var(--moss);
-  background: rgba(92, 130, 89, 0.12);
+  background: rgba(5, 118, 66, 0.1);
 }
 
 .score-stamp--mid {
-  color: var(--amber-deep);
-  background: rgba(224, 151, 43, 0.12);
+  color: var(--amber);
+  background: rgba(10, 102, 194, 0.1);
 }
 
 .score-stamp--low {
   color: var(--clay);
-  background: rgba(181, 83, 60, 0.12);
+  background: rgba(209, 17, 36, 0.1);
 }
 
 .score-stamp__number {

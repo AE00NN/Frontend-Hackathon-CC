@@ -18,7 +18,8 @@
   overflow-y: auto;
   position: relative;
   animation: slide-in 0.22s ease;
-  box-shadow: -12px 0 30px rgba(0, 0, 0, 0.35);
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.08);
+  border-left: 1px solid var(--ink-line);
 }
 
 .drawer__close {
@@ -67,9 +68,9 @@
 }
 
 .drawer__notice {
-  background: rgba(224, 151, 43, 0.14);
-  border: 1px solid var(--amber-deep);
-  color: var(--amber-deep);
+  background: rgba(10, 102, 194, 0.06);
+  border: 1px solid var(--amber);
+  color: var(--amber);
   font-size: 13px;
   padding: 10px 12px;
   border-radius: 6px;
@@ -117,13 +118,13 @@
 }
 
 .drawer__list-item--moss {
-  background: rgba(92, 130, 89, 0.12);
-  color: var(--moss-deep);
+  background: rgba(5, 118, 66, 0.1);
+  color: var(--moss);
 }
 
 .drawer__list-item--clay {
-  background: rgba(181, 83, 60, 0.1);
-  color: var(--clay-deep);
+  background: rgba(209, 17, 36, 0.1);
+  color: var(--clay);
 }
 
 .drawer__list-item--empty {

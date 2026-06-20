@@ -16,11 +16,11 @@
   font-size: clamp(28px, 4.5vw, 40px);
   line-height: 1.12;
   margin: 14px 0 14px;
-  color: var(--paper);
+  color: var(--paper-text);
 }
 
 .job-form-page__subtitle {
-  color: var(--graphite);
+  color: var(--paper-text-dim);
   font-size: 15px;
   line-height: 1.5;
   margin: 0 0 36px;
@@ -30,13 +30,13 @@
 .job-card {
   background: var(--paper);
   color: var(--paper-text);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 30px 28px 28px;
   display: flex;
   flex-direction: column;
   gap: 22px;
-  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.02);
+  border: 1px solid var(--ink-line);
 }
 
 .field {
